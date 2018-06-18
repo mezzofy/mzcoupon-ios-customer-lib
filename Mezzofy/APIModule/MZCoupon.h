@@ -42,8 +42,7 @@
 //Redeem Stock
 - (MZCouponStockResponse *)ReleaseCouponStockByCampaignId:(NSString *)pcampaignId couponId:(NSString *)pCouponId;
 
-//Active Coupon
-- (MZCouponResponse *)getCampaignCouponListFromServer:(NSString *)pcampaign CouponStatus:(NSString *)pcouponstatus Offset:(NSUInteger)poffset;
+
 
 
 
