@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "Mezzofy"
+  s.name         = "MZCoupon"
   s.version      = "1.1.0"
   s.summary      = "API Access Platform url  and get value from server."
 
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Mezzofy", "Mezzofy/**/*.{h,m}"
 
   s.subspec 'no-arc' do |sp|
-    sp.source_files = 'Mezzofy/Jastor/MZJastor.{h,m}'
+    sp.source_files = 'Mezzofy/Jastor/*.{h,m}'
     sp.requires_arc = false
     sp.compiler_flags = '-fno-objc-arc'
   end

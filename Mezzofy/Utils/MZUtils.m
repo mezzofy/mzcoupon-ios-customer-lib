@@ -197,7 +197,7 @@ static BOOL iSLocal=FALSE;
     [req setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [req addValue:[NSString stringWithFormat:@"Basic %@", encodedUsernameAndPassword] forHTTPHeaderField:@"Authorization"];
     
-    [[manager dataTaskWithRequest:req completionHandler:^(NSURLResponse * _Nonnull response, NSData* _Nullable responseObject, NSError * _Nullable error) {
+    [[manager dataTaskWithRequest:req uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, NSData* _Nullable responseObject, NSError * _Nullable error) {
         
         if (!error) {
             retdata = responseObject;
@@ -243,7 +243,7 @@ static BOOL iSLocal=FALSE;
     [req addValue:[NSString stringWithFormat:@"Basic %@", encodedUsernameAndPassword] forHTTPHeaderField:@"Authorization"];
     [req setHTTPBody:pbody];
     
-    [[manager dataTaskWithRequest:req completionHandler:^(NSURLResponse * _Nonnull response, NSData* _Nullable responseObject, NSError * _Nullable error) {
+    [[manager dataTaskWithRequest:req uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, NSData* _Nullable responseObject, NSError * _Nullable error) {
         
         if (!error) {
             retdata = responseObject;
@@ -282,7 +282,7 @@ static BOOL iSLocal=FALSE;
     [req addValue:[NSString stringWithFormat:@"Basic %@", encodedUsernameAndPassword] forHTTPHeaderField:@"Authorization"];
     [req setHTTPBody:pbody];
     
-    [[manager dataTaskWithRequest:req completionHandler:^(NSURLResponse * _Nonnull response, NSData* _Nullable responseObject, NSError * _Nullable error) {
+    [[manager dataTaskWithRequest:req uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, NSData* _Nullable responseObject, NSError * _Nullable error) {
         
         if (!error) {
             retdata = responseObject;
@@ -346,7 +346,7 @@ static BOOL iSLocal=FALSE;
     [req setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [req addValue:[NSString stringWithFormat:@"Basic %@", encodedUsernameAndPassword] forHTTPHeaderField:@"Authorization"];
     
-    [[manager dataTaskWithRequest:req completionHandler:^(NSURLResponse * _Nonnull response, NSData* _Nullable responseObject, NSError * _Nullable error) {
+    [[manager dataTaskWithRequest:req uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, NSData* _Nullable responseObject, NSError * _Nullable error) {
         
         if (!error) {
             retdata = responseObject;
