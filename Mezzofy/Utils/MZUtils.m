@@ -75,9 +75,8 @@ static BOOL iSLocal=FALSE;
         sessionstr = [str stringByAppendingString:[NSString stringWithFormat:@"?session=%ld",ti]];
     else
         sessionstr = [str stringByAppendingString:[NSString stringWithFormat:@"&session=%ld",ti]];
-    
-    
-    NSString *strEncode =[sessionstr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+
+     NSString *strEncode = [sessionstr stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *strURL =[NSURL URLWithString:strEncode];
     NSData *data =[NSData dataWithContentsOfURL:strURL options:NSDataReadingUncached error:nil];
     

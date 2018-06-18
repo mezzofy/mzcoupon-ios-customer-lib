@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12B3B51AFDDE061CB33522E7 /* libPods-Mezzofy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E29175220E3CAC9034C9D03 /* libPods-Mezzofy.a */; };
+		0512DE16BFDC90F9088A2A55 /* libPods-MZCoupon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9A318AEE8F3AFB95A126C1 /* libPods-MZCoupon.a */; };
 		A816A3F7203473A1004B82ED /* MZUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A3F5203473A1004B82ED /* MZUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A816A3F8203473A1004B82ED /* MZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A3F6203473A1004B82ED /* MZUtils.m */; };
 		A816A3FE203473F5004B82ED /* MZCouponConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A3FC203473F5004B82ED /* MZCouponConfig.m */; };
@@ -239,12 +239,15 @@
 		A8F2CE802052505A00EB1B43 /* MZCouponProductOrderResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F2CE7E2052505A00EB1B43 /* MZCouponProductOrderResponse.m */; };
 		A8F2CE832052523200EB1B43 /* MZCouponOverResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F2CE812052523200EB1B43 /* MZCouponOverResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8F2CE842052523200EB1B43 /* MZCouponOverResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F2CE822052523200EB1B43 /* MZCouponOverResponse.m */; };
-		A8F7EA3A2032F92200F405F3 /* Mezzofy.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F7EA382032F92200F405F3 /* Mezzofy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F7EA3A2032F92200F405F3 /* MZCoupon.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F7EA382032F92200F405F3 /* MZCoupon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C7FCA4BC3466986CF23D291 /* Pods-Mezzofy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mezzofy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mezzofy/Pods-Mezzofy.debug.xcconfig"; sourceTree = "<group>"; };
+		1B9A318AEE8F3AFB95A126C1 /* libPods-MZCoupon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZCoupon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3055AC8047B2BC87A4324AA4 /* Pods-MZCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZCoupon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZCoupon/Pods-MZCoupon.debug.xcconfig"; sourceTree = "<group>"; };
 		8E29175220E3CAC9034C9D03 /* libPods-Mezzofy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mezzofy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A226A236171D710D418345 /* Pods-MZCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZCoupon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZCoupon/Pods-MZCoupon.release.xcconfig"; sourceTree = "<group>"; };
 		9306F489AE6A3E5882C88216 /* Pods-Mezzofy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mezzofy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mezzofy/Pods-Mezzofy.release.xcconfig"; sourceTree = "<group>"; };
 		A816A3F5203473A1004B82ED /* MZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUtils.h; sourceTree = "<group>"; };
 		A816A3F6203473A1004B82ED /* MZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUtils.m; sourceTree = "<group>"; };
@@ -477,8 +480,8 @@
 		A8F2CE7E2052505A00EB1B43 /* MZCouponProductOrderResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCouponProductOrderResponse.m; sourceTree = "<group>"; };
 		A8F2CE812052523200EB1B43 /* MZCouponOverResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCouponOverResponse.h; sourceTree = "<group>"; };
 		A8F2CE822052523200EB1B43 /* MZCouponOverResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCouponOverResponse.m; sourceTree = "<group>"; };
-		A8F7EA352032F92200F405F3 /* Mezzofy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mezzofy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8F7EA382032F92200F405F3 /* Mezzofy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mezzofy.h; sourceTree = "<group>"; };
+		A8F7EA352032F92200F405F3 /* Mezzofy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mezzofy.framework; path = MZCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F7EA382032F92200F405F3 /* MZCoupon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCoupon.h; sourceTree = "<group>"; };
 		A8F7EA392032F92200F405F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -487,7 +490,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12B3B51AFDDE061CB33522E7 /* libPods-Mezzofy.a in Frameworks */,
+				0512DE16BFDC90F9088A2A55 /* libPods-MZCoupon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +501,7 @@
 			isa = PBXGroup;
 			children = (
 				8E29175220E3CAC9034C9D03 /* libPods-Mezzofy.a */,
+				1B9A318AEE8F3AFB95A126C1 /* libPods-MZCoupon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -507,6 +511,8 @@
 			children = (
 				0C7FCA4BC3466986CF23D291 /* Pods-Mezzofy.debug.xcconfig */,
 				9306F489AE6A3E5882C88216 /* Pods-Mezzofy.release.xcconfig */,
+				3055AC8047B2BC87A4324AA4 /* Pods-MZCoupon.debug.xcconfig */,
+				91A226A236171D710D418345 /* Pods-MZCoupon.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -883,7 +889,7 @@
 				A816A4002034740A004B82ED /* Pojo */,
 				A816A3FB203473DB004B82ED /* Common */,
 				A816A3F9203473BC004B82ED /* Utils */,
-				A8F7EA382032F92200F405F3 /* Mezzofy.h */,
+				A8F7EA382032F92200F405F3 /* MZCoupon.h */,
 				A8F7EA392032F92200F405F3 /* Info.plist */,
 			);
 			path = Mezzofy;
@@ -896,7 +902,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F7EA3A2032F92200F405F3 /* Mezzofy.h in Headers */,
+				A8F7EA3A2032F92200F405F3 /* MZCoupon.h in Headers */,
 				A816A56A20347546004B82ED /* MZJastorRuntimeHelper.h in Headers */,
 				A816A3F7203473A1004B82ED /* MZUtils.h in Headers */,
 				A816A56920347546004B82ED /* MZJastor.h in Headers */,
@@ -1018,22 +1024,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A8F7EA342032F92200F405F3 /* Mezzofy */ = {
+		A8F7EA342032F92200F405F3 /* MZCoupon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8F7EA3D2032F92200F405F3 /* Build configuration list for PBXNativeTarget "Mezzofy" */;
+			buildConfigurationList = A8F7EA3D2032F92200F405F3 /* Build configuration list for PBXNativeTarget "MZCoupon" */;
 			buildPhases = (
 				5C324ADC4B92B8A38F1F612E /* [CP] Check Pods Manifest.lock */,
 				A8F7EA302032F92200F405F3 /* Sources */,
 				A8F7EA312032F92200F405F3 /* Frameworks */,
 				A8F7EA322032F92200F405F3 /* Headers */,
 				A8F7EA332032F92200F405F3 /* Resources */,
-				AB956740297CBFC6D5C1B2B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Mezzofy;
+			name = MZCoupon;
 			productName = PlatformAPI;
 			productReference = A8F7EA352032F92200F405F3 /* Mezzofy.framework */;
 			productType = "com.apple.product-type.framework";
@@ -1053,7 +1058,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8F7EA2F2032F92200F405F3 /* Build configuration list for PBXProject "Mezzofy" */;
+			buildConfigurationList = A8F7EA2F2032F92200F405F3 /* Build configuration list for PBXProject "MZCoupon" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1065,7 +1070,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8F7EA342032F92200F405F3 /* Mezzofy */,
+				A8F7EA342032F92200F405F3 /* MZCoupon */,
 			);
 		};
 /* End PBXProject section */
@@ -1093,26 +1098,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mezzofy-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MZCoupon-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB956740297CBFC6D5C1B2B3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mezzofy/Pods-Mezzofy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1359,7 +1349,7 @@
 		};
 		A8F7EA3E2032F92200F405F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C7FCA4BC3466986CF23D291 /* Pods-Mezzofy.debug.xcconfig */;
+			baseConfigurationReference = 3055AC8047B2BC87A4324AA4 /* Pods-MZCoupon.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1383,7 +1373,7 @@
 		};
 		A8F7EA3F2032F92200F405F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9306F489AE6A3E5882C88216 /* Pods-Mezzofy.release.xcconfig */;
+			baseConfigurationReference = 91A226A236171D710D418345 /* Pods-MZCoupon.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1409,7 +1399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8F7EA2F2032F92200F405F3 /* Build configuration list for PBXProject "Mezzofy" */ = {
+		A8F7EA2F2032F92200F405F3 /* Build configuration list for PBXProject "MZCoupon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F7EA3B2032F92200F405F3 /* Debug */,
@@ -1418,7 +1408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8F7EA3D2032F92200F405F3 /* Build configuration list for PBXNativeTarget "Mezzofy" */ = {
+		A8F7EA3D2032F92200F405F3 /* Build configuration list for PBXNativeTarget "MZCoupon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F7EA3E2032F92200F405F3 /* Debug */,

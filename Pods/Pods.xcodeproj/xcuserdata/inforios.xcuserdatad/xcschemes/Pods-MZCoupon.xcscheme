@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "622B87D8D2D9DA00C99D8D4F1F7B8EB7"
-               BuildableName = "libPods-Mezzofy.a"
-               BlueprintName = "Pods-Mezzofy"
+               BlueprintIdentifier = "1DF93D556D885142F1298B97CCCA423C"
+               BuildableName = "libPods-MZCoupon.a"
+               BlueprintName = "Pods-MZCoupon"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "622B87D8D2D9DA00C99D8D4F1F7B8EB7"
-            BuildableName = "libPods-Mezzofy.a"
-            BlueprintName = "Pods-Mezzofy"
+            BlueprintIdentifier = "1DF93D556D885142F1298B97CCCA423C"
+            BuildableName = "libPods-MZCoupon.a"
+            BlueprintName = "Pods-MZCoupon"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

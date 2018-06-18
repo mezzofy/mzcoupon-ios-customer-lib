@@ -15,15 +15,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A8F7EA342032F92200F405F3"
-               BuildableName = "Mezzofy.framework"
-               BlueprintName = "Mezzofy"
-               ReferencedContainer = "container:Mezzofy.xcodeproj">
+               BuildableName = "MZCoupon.framework"
+               BlueprintName = "MZCoupon"
+               ReferencedContainer = "container:MZCoupon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -33,7 +33,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8F7EA342032F92200F405F3"
-            BuildableName = "Mezzofy.framework"
-            BlueprintName = "Mezzofy"
-            ReferencedContainer = "container:Mezzofy.xcodeproj">
+            BuildableName = "MZCoupon.framework"
+            BlueprintName = "MZCoupon"
+            ReferencedContainer = "container:MZCoupon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,14 +64,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8F7EA342032F92200F405F3"
-            BuildableName = "Mezzofy.framework"
-            BlueprintName = "Mezzofy"
-            ReferencedContainer = "container:Mezzofy.xcodeproj">
+            BuildableName = "MZCoupon.framework"
+            BlueprintName = "MZCoupon"
+            ReferencedContainer = "container:MZCoupon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Release">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
