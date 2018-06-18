@@ -6,7 +6,7 @@
 //  Copyright © 2018 Mezzofy. All rights reserved.
 //
 
-#import "MZCoupon.h"
+#import "MZCouponModule.h"
 #import "CustomerCouponListDataModel.h"
 #import "CustomerCouponDataModel.h"
 #import "MZCouponConfig.h"
@@ -16,7 +16,7 @@
 
 
 
-@implementation MZCoupon
+@implementation MZCouponModule
 
 
 - (MZCouponResponse * )getCoupons:(NSString *)pcouponstatus Offset:(NSUInteger)poffset{

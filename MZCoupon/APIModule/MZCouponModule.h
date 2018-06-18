@@ -15,7 +15,7 @@
 #import "MZCouponStockResponse.h"
 #import "MZCouponGiftResponse.h"
 
-@interface MZCoupon: NSObject
+@interface MZCouponModule: NSObject
 
 
 //Active,Redeem And Expriy Coupon

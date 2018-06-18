@@ -151,9 +151,9 @@
 		A816A51B2034742A004B82ED /* CustomerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48D2034742A004B82ED /* CustomerDataModel.m */; };
 		A816A51C2034742A004B82ED /* OrderTrackData.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A48E2034742A004B82ED /* OrderTrackData.m */; };
 		A816A540203474AB004B82ED /* MZCouponOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A51E203474A8004B82ED /* MZCouponOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A816A549203474AB004B82ED /* MZCoupon.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A527203474A8004B82ED /* MZCoupon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A816A549203474AB004B82ED /* MZCouponModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A527203474A8004B82ED /* MZCouponModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A816A54B203474AB004B82ED /* MZMassRedeem.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A529203474A8004B82ED /* MZMassRedeem.m */; };
-		A816A54F203474AB004B82ED /* MZCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A52D203474A9004B82ED /* MZCoupon.m */; };
+		A816A54F203474AB004B82ED /* MZCouponModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A52D203474A9004B82ED /* MZCouponModule.m */; };
 		A816A552203474AB004B82ED /* MZCouponPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A530203474A9004B82ED /* MZCouponPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A816A557203474AB004B82ED /* MZCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = A816A535203474AA004B82ED /* MZCustomer.m */; };
 		A816A558203474AB004B82ED /* MZCustomer.h in Headers */ = {isa = PBXBuildFile; fileRef = A816A536203474AA004B82ED /* MZCustomer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -243,12 +243,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C7FCA4BC3466986CF23D291 /* Pods-Mezzofy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mezzofy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mezzofy/Pods-Mezzofy.debug.xcconfig"; sourceTree = "<group>"; };
 		1B9A318AEE8F3AFB95A126C1 /* libPods-MZCoupon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZCoupon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3055AC8047B2BC87A4324AA4 /* Pods-MZCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZCoupon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZCoupon/Pods-MZCoupon.debug.xcconfig"; sourceTree = "<group>"; };
-		8E29175220E3CAC9034C9D03 /* libPods-Mezzofy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mezzofy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A226A236171D710D418345 /* Pods-MZCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZCoupon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZCoupon/Pods-MZCoupon.release.xcconfig"; sourceTree = "<group>"; };
-		9306F489AE6A3E5882C88216 /* Pods-Mezzofy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mezzofy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mezzofy/Pods-Mezzofy.release.xcconfig"; sourceTree = "<group>"; };
 		A816A3F5203473A1004B82ED /* MZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUtils.h; sourceTree = "<group>"; };
 		A816A3F6203473A1004B82ED /* MZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUtils.m; sourceTree = "<group>"; };
 		A816A3FC203473F5004B82ED /* MZCouponConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCouponConfig.m; sourceTree = "<group>"; };
@@ -392,9 +389,9 @@
 		A816A48D2034742A004B82ED /* CustomerDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDataModel.m; sourceTree = "<group>"; };
 		A816A48E2034742A004B82ED /* OrderTrackData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTrackData.m; sourceTree = "<group>"; };
 		A816A51E203474A8004B82ED /* MZCouponOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCouponOrder.h; sourceTree = "<group>"; };
-		A816A527203474A8004B82ED /* MZCoupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCoupon.h; sourceTree = "<group>"; };
+		A816A527203474A8004B82ED /* MZCouponModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCouponModule.h; sourceTree = "<group>"; };
 		A816A529203474A8004B82ED /* MZMassRedeem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMassRedeem.m; sourceTree = "<group>"; };
-		A816A52D203474A9004B82ED /* MZCoupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCoupon.m; sourceTree = "<group>"; };
+		A816A52D203474A9004B82ED /* MZCouponModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCouponModule.m; sourceTree = "<group>"; };
 		A816A530203474A9004B82ED /* MZCouponPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCouponPayment.h; sourceTree = "<group>"; };
 		A816A535203474AA004B82ED /* MZCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCustomer.m; sourceTree = "<group>"; };
 		A816A536203474AA004B82ED /* MZCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCustomer.h; sourceTree = "<group>"; };
@@ -480,7 +477,7 @@
 		A8F2CE7E2052505A00EB1B43 /* MZCouponProductOrderResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCouponProductOrderResponse.m; sourceTree = "<group>"; };
 		A8F2CE812052523200EB1B43 /* MZCouponOverResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCouponOverResponse.h; sourceTree = "<group>"; };
 		A8F2CE822052523200EB1B43 /* MZCouponOverResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCouponOverResponse.m; sourceTree = "<group>"; };
-		A8F7EA352032F92200F405F3 /* Mezzofy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mezzofy.framework; path = MZCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F7EA352032F92200F405F3 /* MZCoupon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F7EA382032F92200F405F3 /* MZCoupon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCoupon.h; sourceTree = "<group>"; };
 		A8F7EA392032F92200F405F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -500,7 +497,6 @@
 		0283DE648A5581283857574C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8E29175220E3CAC9034C9D03 /* libPods-Mezzofy.a */,
 				1B9A318AEE8F3AFB95A126C1 /* libPods-MZCoupon.a */,
 			);
 			name = Frameworks;
@@ -509,8 +505,6 @@
 		82266602E4D739BB14E176CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0C7FCA4BC3466986CF23D291 /* Pods-Mezzofy.debug.xcconfig */,
-				9306F489AE6A3E5882C88216 /* Pods-Mezzofy.release.xcconfig */,
 				3055AC8047B2BC87A4324AA4 /* Pods-MZCoupon.debug.xcconfig */,
 				91A226A236171D710D418345 /* Pods-MZCoupon.release.xcconfig */,
 			);
@@ -705,8 +699,8 @@
 				A8E348A12043E3CA0013B34D /* MZWallet.m */,
 				A8E3489F2043E3CA0013B34D /* MZWalletTopUpTransaction.h */,
 				A8E348A02043E3CA0013B34D /* MZWalletTopUpTransaction.m */,
-				A816A527203474A8004B82ED /* MZCoupon.h */,
-				A816A52D203474A9004B82ED /* MZCoupon.m */,
+				A816A527203474A8004B82ED /* MZCouponModule.h */,
+				A816A52D203474A9004B82ED /* MZCouponModule.m */,
 				A816A51E203474A8004B82ED /* MZCouponOrder.h */,
 				A816A53F203474AB004B82ED /* MZCouponOrder.m */,
 				A816A530203474A9004B82ED /* MZCouponPayment.h */,
@@ -865,7 +859,7 @@
 			isa = PBXGroup;
 			children = (
 				A88A46BF20D7D10500F31EED /* README.md */,
-				A8F7EA372032F92200F405F3 /* Mezzofy */,
+				A8F7EA372032F92200F405F3 /* MZCoupon */,
 				A8F7EA362032F92200F405F3 /* Products */,
 				82266602E4D739BB14E176CD /* Pods */,
 				0283DE648A5581283857574C /* Frameworks */,
@@ -875,12 +869,12 @@
 		A8F7EA362032F92200F405F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8F7EA352032F92200F405F3 /* Mezzofy.framework */,
+				A8F7EA352032F92200F405F3 /* MZCoupon.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8F7EA372032F92200F405F3 /* Mezzofy */ = {
+		A8F7EA372032F92200F405F3 /* MZCoupon */ = {
 			isa = PBXGroup;
 			children = (
 				A83800C3203C476A00225112 /* DataResponse */,
@@ -892,7 +886,7 @@
 				A8F7EA382032F92200F405F3 /* MZCoupon.h */,
 				A8F7EA392032F92200F405F3 /* Info.plist */,
 			);
-			path = Mezzofy;
+			path = MZCoupon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -907,7 +901,7 @@
 				A816A3F7203473A1004B82ED /* MZUtils.h in Headers */,
 				A816A56920347546004B82ED /* MZJastor.h in Headers */,
 				A816A3FF203473F5004B82ED /* MZCouponConfig.h in Headers */,
-				A816A549203474AB004B82ED /* MZCoupon.h in Headers */,
+				A816A549203474AB004B82ED /* MZCouponModule.h in Headers */,
 				A816A4F32034742A004B82ED /* PaymentDataModel.h in Headers */,
 				A816A4BA2034742A004B82ED /* ProductOrderListDataModel.h in Headers */,
 				A816A5042034742A004B82ED /* StockDataModel.h in Headers */,
@@ -1040,7 +1034,7 @@
 			);
 			name = MZCoupon;
 			productName = PlatformAPI;
-			productReference = A8F7EA352032F92200F405F3 /* Mezzofy.framework */;
+			productReference = A8F7EA352032F92200F405F3 /* MZCoupon.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1170,7 +1164,7 @@
 				A8E348CA20441D420013B34D /* MZNotificationResponse.m in Sources */,
 				A816A5122034742A004B82ED /* ProductOrderListDataModel.m in Sources */,
 				A816A4C52034742A004B82ED /* ProductData.m in Sources */,
-				A816A54F203474AB004B82ED /* MZCoupon.m in Sources */,
+				A816A54F203474AB004B82ED /* MZCouponModule.m in Sources */,
 				A816A49F2034742A004B82ED /* PaymentData.m in Sources */,
 				A8C8FEE420565F7C0018330B /* MZCampaignProductOrderListResponse.m in Sources */,
 				A816A4BE2034742A004B82ED /* CampaignSearchDataModel.m in Sources */,
@@ -1360,7 +1354,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Mezzofy/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MZCoupon/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1384,7 +1378,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Mezzofy/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MZCoupon/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Mezzofy", "Mezzofy/**/*.{h,m}"
+  s.source_files  = "MZCoupon", "MZCoupon/**/*.{h,m}"
 
   s.subspec 'no-arc' do |sp|
-    sp.source_files = 'Mezzofy/Jastor/*.{h,m}'
+    sp.source_files = 'MZCoupon/Jastor/*.{h,m}'
     sp.requires_arc = false
     sp.compiler_flags = '-fno-objc-arc'
   end
