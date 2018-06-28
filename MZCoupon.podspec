@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "MZCoupon", "MZCoupon/**/*.{h,m}"
 
   s.subspec 'no-arc' do |sp|
-    sp.source_files = 'MZCoupon/Jastor/MZJastor.m'
+    sp.source_files = "MZCoupon/Jastor/*.{h,m}"
     sp.requires_arc = false
     sp.compiler_flags = '-fno-objc-arc'
   end
