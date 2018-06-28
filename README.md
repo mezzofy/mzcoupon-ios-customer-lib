@@ -37,11 +37,12 @@ return YES;
 
 ```
 ***Hints:*** 
-*1.Where "COM_CODE" companycode, AccessToken ("XXXXX") and AccessKey ("x") provide by the Merchant*
 
-*2.Where Server set False while you Test and For Production Set as True*
+*1. Where "COM_CODE" companycode, AccessToken ("XXXXX") and AccessKey ("x") provide by the Merchant*
 
-*3.After Login Or Register  you set Customer_ID in MZCouponConfig*
+*2. Where Server set False while you Test and For Production Set as True*
+
+*3. After Login or Register  you set Customer_ID in MZCouponConfig*
 ```objc
 [MZCouponConfig SetupCustomerID:@"CUSTOMER_ID"];
 ```
@@ -87,4 +88,4 @@ MZCouponResponse
 # Licenses
 All source code is licensed under the [MIT License.](https://raw.githubusercontent.com/mezzofy/mzcoupon-ios-customer-lib/master/LICENSE)
 
-###End
+### End
