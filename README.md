@@ -78,7 +78,7 @@ MZCampaignResponse
 ``` objc
 MZCouponModule *objcoupon=[[MZCouponModule alloc]init];
 MZCouponResponse *objcouponresponse=[[MZCouponResponse alloc]init];
-objcouponresponse=[objcoupon getCoupons:pcouponstatus Offset:poffset];
+objcouponresponse=[objcoupon getCoupons:pCustomerID CouponStatus:pcouponstatus Offset:poffset];
 ```
 **Return**
 
