@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MZCoupon"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "API Access Platform url  and get value from server."
 
   # This description is used to generate tags and improve search results.
