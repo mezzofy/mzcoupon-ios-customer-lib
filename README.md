@@ -42,10 +42,6 @@ return YES;
 
 *2. Where Server set False while you Test and For Production Set as True*
 
-*3. After Login or Register  you set Customer_ID in MZCouponConfig*
-```objc
-[MZCouponConfig SetupCustomerID:@"CUSTOMER_ID"];
-```
 
 ##### How to get Company Code & AccessToken
 Login to Merchant Account 

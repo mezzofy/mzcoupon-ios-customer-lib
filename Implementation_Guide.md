@@ -33,12 +33,11 @@ pod try MZCoupon
 return YES;
 
 ***Hints:*** 
+
 *1.Where "COM_CODE" companycode, AccessToken ("XXXXX") and AccessKey ("x") provide by the Merchant*
+
 *2.Where Server set False while you Test and For Production Set as True*
-*3.After Login Or Register  you set Customer_ID in MZCouponConfig *
-```objc
-[MZCouponConfig SetupCustomerID:@"CUSTOMER_ID"];
-```
+
 
 ##### How to get Company Code & AccessToken
 Login to Merchant Account 
