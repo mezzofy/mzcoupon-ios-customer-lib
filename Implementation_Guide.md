@@ -33,20 +33,20 @@
 
 * #### 2.1 Normal Sign In
     - Step 1: Prepare and SingIn Customer
-            - Prepare record set with following mandatory Fields. In [CustomerData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
+        - Prepare record set with following mandatory Fields. In [CustomerData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
                 1. `customerEmail`
                 2. `customerPassword`
-            - Prepare record set with following mandatory Fields. [CustomerDeviceData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerDeviceData.h)
+        - Prepare record set with following mandatory Fields. [CustomerDeviceData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerDeviceData.h)
                 1. `DeviceUuid`
                 2. `DeviceName` for iOS set Default "I"
                 3. `DeviceToken`
-            - Prepare Request  [CustomerDeviceDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerDeviceDataModel.h)
+        - Prepare Request  [CustomerDeviceDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerDeviceDataModel.h)
                 1. `Customer`  
                 2. `Device` 
-            - Call Register Customer method 
-            - POST Method: `http://yoursubdomain.mezzofy.com/api/v1/customers`
-            - Request Body: [CustomerDeviceDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerDeviceDataModel.h)
-            - Upon Successful Registration API Return [MZCustomerResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Customer/MZCustomerResponse.h)
+        - Call Register Customer method 
+        - POST Method: `http://yoursubdomain.mezzofy.com/api/v1/customers`
+        - Request Body: [CustomerDeviceDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerDeviceDataModel.h)
+        - Upon Successful Registration API Return [MZCustomerResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Customer/MZCustomerResponse.h)
     * #### 2.2 Facebook Sign In
         - Step 1: Prepare and SingIn Customer
         - Prepare record set with following mandatory Fields. In [CustomerData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
@@ -120,7 +120,7 @@
             1. If `brand` is 'C' Charge Coupon
             2. If `brand` is 'F' Free Coupon
         - Step 3: Download Free Coupon 
-            1.Prepare For download Free coupon 
+            - 1.Prepare For download Free coupon 
                 - I ) Prepare DataSet [ProductOrderData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/ProductOrderData.h)
                     - `customerId` Set CustomerID
                     - `poId` Generate UUID and set
@@ -141,7 +141,7 @@
                     - Request Body [ProductOrderListDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/ProductOrderListDataModel.h)
                     - Upon Successful Response [MZCouponProductOrderResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Coupon/MZCouponProductOrderResponse.h)
             - Step 4: Download Charge Coupon 
-                1.Prepare For download Charge coupon 
+                - 1.Prepare For download Charge coupon 
                     - I ) Prepare DataSet [ProductOrderData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/ProductOrderData.h)
                         - `customerId` Set CustomerID
                         - `poId` Generate UUID and set
