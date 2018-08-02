@@ -3,31 +3,31 @@
 
 ## MzCoupon Full Implementation Guide.
 <p align="center">
-<img width="460" height="300" src="http://www.mezzofy.com/images/logoz.png">
+<img src="http://www.mezzofy.com/images/logoz.png">
 </p>
 
 #### **_Note_** : Basic Authorization enabled for all API
 ### 1) New User Registration
 
 - Step 1 - Get the Country List 
-- GET Method : `http://platform.mezzofy.com/api/v1/countries`
-- Get results in [MZCountryResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Regsister/MZCountryResponse.h)
-- Get Country Code from [CountryData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CountryData.h) in [CountryDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CountryDataModel.h)
+    - GET Method : `http://platform.mezzofy.com/api/v1/countries`
+        - Get results in [MZCountryResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Regsister/MZCountryResponse.h)
+            - Get Country Code from [CountryData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CountryData.h) in [CountryDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CountryDataModel.h)
 - Step 2: Prepare and Register Customer
-- Prepare record set with following mandatory Fields. In [CustomerData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
-1. `customerFirstName`
-2. `countryCode`   **{From Country List}**
-3. `customerMobile`
-4. `customerEmail`
-5. `customerPassword`
-6. `userType` default to "C"
+    - Prepare record set with following mandatory Fields. In [CustomerData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
+        1. `customerFirstName`
+        2. `countryCode`   **{From Country List}**
+        3. `customerMobile`
+        4. `customerEmail`
+        5. `customerPassword`
+        6. `userType` default to "C"
 - Step 3: Prepare Request
-- Prepare record set [CustomerDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
-1. `customer` 
-- Call Register Customer method 
-* POST Method: `http://yoursubdomain.mezzofy.com/api/v1/customers` 
-* Request Body: [CustomerDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerDataModel.h)
-- Upon Successful Registration API Return [MZRegsisterResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Regsister/MZRegsisterResponse.h)
+    - Prepare record set [CustomerDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
+        1. `customer` 
+        - Call Register Customer method 
+        * POST Method: `http://yoursubdomain.mezzofy.com/api/v1/customers` 
+        * Request Body: [CustomerDataModel](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerDataModel.h)
+        - Upon Successful Registration API Return [MZRegsisterResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Regsister/MZRegsisterResponse.h)
 
 ### 2) Sign In
 * #### 2.1 Normal Sign In
