@@ -30,8 +30,9 @@
         - Upon Successful Registration API Return [MZRegsisterResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Regsister/MZRegsisterResponse.h)
 
 ### 2) Sign In
-    * #### 2.1 Normal Sign In
-        - Step 1: Prepare and SingIn Customer
+
+* #### 2.1 Normal Sign In
+    - Step 1: Prepare and SingIn Customer
             - Prepare record set with following mandatory Fields. In [CustomerData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
                 1. `customerEmail`
                 2. `customerPassword`
@@ -75,8 +76,8 @@
         - Request Body: CustomerDataModel
         - Upon Successful ForgotPassword API Return [MZCustomerResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Customer/MZCustomerResponse.h)
 ### 3)   Campaign List
-    * #### 3.1 Top Campaign List
-        - Step 1: Call Top Camapign List Method
+* #### 3.1 Top Campaign List
+    - Step 1: Call Top Camapign List Method
         - GET Method: `http://yoursubdomain.mezzofy.com/api/v1/campaigns/topcoupon`
         - Upon Successful Return [MZCampaignResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Campaign/MZCampaignResponse.h)
     * #### 3.2 Campaign List
@@ -164,13 +165,13 @@
 
                 - Response you got Successful Payment or Failure Payment
 ### 4) CampaignGroups
-    - Step 1: Call CampaignGroups List Method
+- Step 1: Call CampaignGroups List Method
     - GET Method: `http://yoursubdomain.mezzofy.com/api/v1/campaigngroups`
     - Upon Successful Return [MZCampaignGroupResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Coupon/MZCampaignGroupResponse.h)
 
 ### 5) Coupon
-    * #### 5.1 Coupon List (Redeemed and Expired)
-        - Step 1: Call Coupon List Method
+* #### 5.1 Coupon List (Redeemed and Expired)
+    - Step 1: Call Coupon List Method
         - GET Method: `http://yoursubdomain.mezzofy.com/api/v1/customercoupons`
         - Parameter 
             1. `status` For Redeemed Coupon `R` , For Expired Coupon `E`
@@ -260,8 +261,8 @@
         - GET Method: `http://yoursubdomain.mezzofy.com/api/v1/orders/ordertrack/{CouponID}`
         - Upon Successful Return [MZCouponOrderResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Coupon/MZCouponOrderResponse.h)
 ### 6) Customer Profile Update
-    * #### 6.1 Name and Mobile Number Update
-        - Step 1: Prepare record set with following mandatory Fields. In [CustomerData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
+* #### 6.1 Name and Mobile Number Update
+    - Step 1: Prepare record set with following mandatory Fields. In [CustomerData](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/Pojo/CustomerData.h)
             1. `customerFirstName`
             2. `customerMobile`
             3. `customerId`
@@ -282,7 +283,7 @@
         - Request Body: CustomerDataModel
         - Upon Successful Registration API Return [MZCustomerResponse](https://github.com/mezzofy/mzcoupon-ios-customer-lib/blob/master/MZCoupon/DataResponse/Customer/MZCustomerResponse.h)
 ### 7) Site List
-    - Step 1: Call Site List Method
+- Step 1: Call Site List Method
     -  GET Method: `http://yoursubdomain.mezzofy.com/api/v1/sites`
     - Parameter
         - `page`
