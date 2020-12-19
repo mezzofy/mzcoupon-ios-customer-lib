@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MZCoupon"
-  s.version      = "1.0.3"
+  s.version      = "1.0.6"
   s.summary      = "API Access Platform url  and get value from server."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mezzofy/mzcoupon-ios-customer-lib.git", :tag => "1.0.5" }
+  s.source       = { :git => "https://github.com/mezzofy/mzcoupon-ios-customer-lib.git", :tag => "1.0.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -138,6 +138,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "AFNetworking", "~> 3.0"
+   s.dependency "AFNetworking", "~> 4.0"
 
 end
